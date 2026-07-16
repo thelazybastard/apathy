@@ -1,6 +1,10 @@
+#include "player.h"
 #include <iostream>
 
 int main() {
-  std::cout << "HELLO WOLRD\n";
-  return 0;
+    std::cout << "HELLO WOLRD\n";
+
+    Player mainCharacter("Ghost", 100);
+
+    return 0;
 }

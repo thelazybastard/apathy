@@ -7,6 +7,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(SOURCE_FILES
     main.cpp
+    player.cpp
+    player.h
+    antagonist.cpp
 )
 
 add_executable(apathy ${SOURCE_FILES})
