@@ -10,6 +10,9 @@ set(SOURCE_FILES
     player.cpp
     player.h
     antagonist.cpp
+    antagonist.h
+    events.cpp
+    events.h
 )
 
 add_executable(apathy ${SOURCE_FILES})
